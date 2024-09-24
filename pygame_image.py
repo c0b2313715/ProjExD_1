@@ -27,7 +27,9 @@ def main():
         elif key_lst[pg.K_LEFT]:
             kt_rct.move_ip((-1,0))
         elif key_lst[pg.K_RIGHT]:
-            kt_rct.move_ip((+1,0))
+            kt_rct.move_ip((+2,0))
+        else:
+            kt_rct.move_ip((-1,0))
 
         time=tmr%3200
             
